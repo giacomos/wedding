@@ -1,0 +1,19 @@
+# Site settings
+title: "Monica\n
+💍 
+Giacomo"
+h2: "<div>Monica</div>💍<div>Giacomo</div>"
+description: |
+    STABLE CAFÉ, San Francisco
+
+    February 2, 2019
+owner: Pierre-Yves Ricau
+first_published: 2018
+baseurl: ""
+url: "jupy.us"
+
+# Build settings
+markdown: kramdown
+
+wedding_gmap: https://goo.gl/maps/LuyktMwWLSr
+wedding_date: 9 Giugno 2019

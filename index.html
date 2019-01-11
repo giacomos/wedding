@@ -1,0 +1,94 @@
+---
+layout: landing
+---
+
+<section id="banner">
+  <div class="inner">
+    <h2>{{ site.h2 }}</h2>
+    <p>Villa Chiarelli, Renazzo di Cento</p>
+  <p>{{ site.wedding_date }}</p>
+  </div>
+  <a href="#details" class="more scrolly">Details</a>
+</section>
+
+<section id="details" class="wrapper style2 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Unitevi a noi per celebrare il nostro matrimonio!</h2>
+      <p>📅<br>{{ site.wedding_date }}<br>
+        <a target="_blank"
+            href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2J0MzdqcGozbDRzNDlkMnZnMzdkYjM0OTMgcHkucmljYXVAbQ&tmsrc=giacomo.spettoli%40gmail.com">
+          Aggiungi il nostro evento al calendario
+        </a></p>
+    
+    <p>📍<br>Villa Chiarelli<br>
+    <a target="_blank" href="{{ site.wedding_gmap }}">Renazzo di Cento, Ferrara</a></p>
+    
+    <p>
+      10:00 &mdash; Si aprono le danze 🔓<br>
+      10:30 &mdash; Cerimonia 💍<br>
+      13:00 &mdash; Aperitivo e pranzo🍸<br>
+      16:00 &mdash; Dinner 🍴 &amp; Dancing 💃🏼<br>
+      21:00 &mdash; Si chiudono le danze 🔒
+    </p>
+    
+    <p>
+      📷<br>
+      <!-- Instagram: <a target="_blank" href="https://www.instagram.com/explore/tags/jupyus">#jupyus</a><br> -->
+      Google Photo: <a target="_blank" href="https://photos.app.goo.gl/9PsvDr55WdPjYcEb6">Aggiungi le tue foto a questo calendario condiviso</a>
+    </p>
+    
+    <p>📩<br><a href="#rsvp">RSVP</a></p>
+    </header>
+  </div>
+</section>
+
+<section class="wrapper alt style2">
+   <section id="dresscode" class="spotlight">
+      <div class="image">
+        <img src="images/dresscode.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h2>🎀 Dress code</h2>
+        <p>Il colore del evento é il giallo! Vestitevi con qualcosa di giallo.</p>
+      </div>
+   </section>
+   <section id="howwemet" class="spotlight">
+       <div class="content">
+         <h2>👩‍❤️‍💋‍👨 La nostra storia</h2>
+         <p>.... 👶🏻</p>
+       </div>
+      <div class="image">
+        <img src="images/howwemet.jpg" alt="" />
+      </div>
+   </section>
+</section>
+
+<section id="rsvp" class="wrapper style4 special">
+  <div class="inner">
+    <header>
+      <h2>📩 RSVP</h2>
+    <form method="POST" action="http://formspree.io/py.ricau@gmail.com">
+      <input type="text" name="name" placeholder="Your name" />
+      <select name="count" style="margin-top: 4px" >
+      <option disabled selected value>Guest count</option>
+      <option value="0">Can't make it</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <input type="text" name="_gotcha" style="display:none"/>
+      <br>
+      <button type="submit">RSVP</button>
+    </form>
+    </header>
+  </div>
+</section>
+
+
+<footer id="footer">
+  <ul class="copyright">
+    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+  </ul>
+</footer>
