@@ -4,13 +4,13 @@ title: "Monica\n
 Giacomo"
 h2: "<div>Monica</div>💍<div>Giacomo</div>"
 description: |
-    STABLE CAFÉ, San Francisco
+    Villa Chiarelli, Renazzo di Cento
 
-    February 2, 2019
-owner: Pierre-Yves Ricau
-first_published: 2018
+    9 Giugno 2019
+owner: Giacomo Spettoli
+first_published: 2019
 baseurl: ""
-url: "jupy.us"
+url: "..."
 
 # Build settings
 markdown: kramdown
