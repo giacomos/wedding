@@ -10,7 +10,7 @@ description: |
 owner: Giacomo Spettoli
 first_published: 2019
 baseurl: ""
-url: "..."
+url: "https://giacomos.github.io/wedding/"
 
 # Build settings
 markdown: kramdown
