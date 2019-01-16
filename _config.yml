@@ -9,7 +9,7 @@ description: |
     9 Giugno 2019
 owner: Giacomo Spettoli
 first_published: 2019
-baseurl: "https://giacomos.github.io/wedding"
+baseurl: "/wedding"
 url: "https://giacomos.github.io/wedding"
 
 # Build settings
