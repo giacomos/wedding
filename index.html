@@ -14,32 +14,32 @@ layout: landing
   <div class="inner">
     <header class="major">
       <h2>Unitevi a noi per celebrare il nostro matrimonio!</h2>
-      <p>📅<br>{{ site.wedding_date }}<br>
+      <p>{{ site.icon_calendar }}<br>{{ site.wedding_date }}<br>
         <a target="_blank"
             href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHAybmxocmNwc2l0dGtxcGpvNmoxZnNudW0gZ2lhY29tby5zcGV0dG9saUBt&tmsrc=giacomo.spettoli%40gmail.com">
           Aggiungi il nostro evento al calendario
         </a></p>
     
     <p>La cerimonia si celebrerà presso: </p>
-    <p>📍<br>Chiesa di Santa Maria e San Danio<br>
+    <p>{{ site.icon_map_pin }}<br>Chiesa di Santa Maria e San Danio<br>
     <a target="_blank" href="{{ site.wedding_gmap }}">via Amola 9, San Giovanni in Persiceto</a></p>
     <p> e a seguire festeggeremo presso:</p>
-    <p>📍<br>Villa Chiarelli<br>
+    <p>{{ site.icon_map_pin }}<br>Villa Chiarelli<br>
     <a target="_blank" href="{{ site.wedding_gmap }}">via Amerigo Vespucci 6, Cento, Ferrara</a></p>
     
     <p>
-      10:30 &mdash; Cerimonia 💍<br>
-      12:30 &mdash; Aperitivo e pranzo🍸<br>
+      10:30 &mdash; Cerimonia {{ site.icon_church }}<br>
+      12:30 &mdash; Aperitivo e pranzo {{ site.icon_food }}<br>
       16:30 &mdash; Taglio della torta e balli 💃🏼<br>
     </p>
     
     <p>
-      📷<br>
+        {{ site.icon_camera }}<br>
       <!-- Instagram: <a target="_blank" href="https://www.instagram.com/explore/tags/jupyus">#jupyus</a><br> -->
       Google Photo: <a target="_blank" href="https://photos.app.goo.gl/XumvnYNL19NXtJrz9">Aggiungi le tue foto all'album condiviso</a>
     </p>
     
-    <p>📩<br><a href="#rsvp">RSVP</a></p>
+    <p>{{ site.icon_envelope }}<br><a href="#rsvp">RSVP</a></p>
     </header>
   </div>
 </section>
@@ -50,7 +50,7 @@ layout: landing
         <img src="images/dresscode.jpg" alt="" />
       </div>
       <div class="content">
-        <h2>🎀 Dress code</h2>
+        <h2>{{ site.icon_dress }}<span>Dress code</span></h2>
         <p>Il leit motiv del matrimonio sarà il colore <span style="color: yellow">giallo</span>. Energetico e dinamico come noi,
            il giallo è il colore della luce del sole, dei campi di girasole, della crema pasticcera della nonna,
            dell’estate e della vita scoppiettante di passioni che ci attende. Aggiungete un dettaglio di giallo al vostro
@@ -64,7 +64,7 @@ layout: landing
         <img src="images/howwemet.jpg" alt="" />
       </div>
        <div class="content">
-         <h2>👩‍❤️‍💋‍👨 La nostra storia</h2>
+         <h2>{{ site.icon_love }}<span>La nostra storia</span></h2>
          <p>Le nostre singole storie ci hanno portato, per strade diverse, ad incontrarci in uno stesso punto di quella che è
             diventata la nostra storia. Abbiamo capito subito che eravamo fatti per stare l’uno con l’altra.
             Da lì la strada fatta insieme è stata tanta , letteralmente. Tra cammini, escursioni, spartan race e lanci in paracaduti,
@@ -77,11 +77,14 @@ layout: landing
         <img src="images/gifts.jpg" alt="" />
       </div>
       <div class="content">
-        <h2>🎁 Regali</h2>
+        <h2>{{ site.icon_gift }} Regali</h2>
         <p>Il regalo più grande è la vostra partecipazione a questo giorno speciale, ma per aiutarci a costruire un futuro insieme,
            vi lasciamo queste coordinate per contribuire come preferite:
-          <b>IBAN: IT43D0611536720000000094502</b></p>
-          <b>Lista nozze prezzo Comet, punti vendita di Ferrara, Bologna e San Giovanni in Persiceto</b></p>
+           <dl>
+             <dt>{{ site.icon_bank }}<span> IBAN:</span></dt><dd>IT43D0611536720000000094502</dd>
+             <dt>{{ site.icon_list }}<span> Lista nozze:</span></dt><dd>presso Comet, punti vendita di Ferrara, Bologna e San Giovanni in Persiceto</dd>
+             <dt>{{ site.icon_paypal }}<span> Paypal:</span></dt><dd><a href="https://paypal.me/monicaegiacomo?locale.x=it_IT">https://paypal.me/monicaegiacomo</a></dd>
+           </dl>
       </div>
    </section>
 </section>
@@ -89,7 +92,7 @@ layout: landing
 <section id="rsvp" class="wrapper style4 special">
   <div class="inner">
     <header>
-      <h2>📩 RSVP</h2>
+      <h2>{{ site.icon_envelope }} RSVP</h2>
     <p>Per conferma:</p>
     <form method="POST" action="http://formspree.io/giacomo.spettoli@gmail.com">
       <input type="text" name="name" placeholder="Il tuo nome" />
@@ -103,7 +106,7 @@ layout: landing
       </select>
       <input type="text" name="_gotcha" style="display:none"/>
       <br>
-      <button type="submit">RSVP</button>
+      <button type="submit">Invia</button>
     </form>
     </header>
   </div>

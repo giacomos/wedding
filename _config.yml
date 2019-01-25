@@ -18,3 +18,17 @@ markdown: kramdown
 
 wedding_gmap: https://goo.gl/maps/LuyktMwWLSr
 wedding_date: 9 Giugno 2019
+
+icon_envelope: <i class="fa fa-envelope"></i>
+icon_camera: <i class="fa fa-camera"></i>
+icon_dress: <i class="fa fa-user-tie"></i>
+icon_love: <i class="fa fa-heartbeat"></i>
+icon_gift: <i class="fa fa-gift"></i>
+icon_bank: <i class="fa fa-university"></i>
+icon_list: <i class="fa fa-list"></i>
+icon_paypal: <i class="fab fa-paypal"></i>
+icon_calendar: <i class="fa fa-calendar-alt"></i>
+icon_map_pin: <i class="fa fa-map-pin"></i>
+icon_food: <i class="fa fa-birthday-cake"></i>
+icon_home: <i class="fa fa-home"></i>
+icon_church: <i class="fa fa-church"></i>
