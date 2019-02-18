@@ -1097,7 +1097,7 @@ body {
     transition: none !important; }
 
 body, input, select, textarea {
-  color: #fff;
+  color: #fffff0;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 15pt;
   font-weight: 400;
@@ -1126,7 +1126,7 @@ a {
     border-bottom-color: transparent; }
 
 strong, b {
-  color: #fff;
+  color: #fffff0;
   font-weight: 600; }
 
 em, i {
@@ -1136,7 +1136,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #fffff0;
   font-weight: 800;
   letter-spacing: 0.225em;
   line-height: 1em;
@@ -1186,13 +1186,13 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 2px #fff;
+  border-bottom: solid 2px #fffff0;
   margin: 3em 0; }
   hr.major {
     margin: 4.5em 0; }
 
 blockquote {
-  border-left: solid 4px #fff;
+  border-left: solid 4px #fffff0;
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em; }
@@ -1243,7 +1243,7 @@ header h6 + p {
 header.major {
   margin: 0 0 3.5em 0; }
   header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-    border-bottom: solid 2px #fff;
+    border-bottom: solid 2px #fffff0;
     display: inline-block;
     padding-bottom: 1em;
     position: relative; }
@@ -1252,7 +1252,7 @@ header.major {
       display: block;
       height: 1px; }
   header.major p {
-    color: #fff;
+    color: #fffff0;
     top: 0; }
   @media screen and (max-width: 736px) {
     header.major {
@@ -1263,7 +1263,7 @@ form {
   margin: 0 0 2em 0; }
 
 label {
-  color: #fff;
+  color: #fffff0;
   display: block;
   font-size: 0.9em;
   font-weight: 600;
@@ -1316,7 +1316,7 @@ textarea {
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    color: #fff;
+    color: #fffff0;
     content: '\f078';
     display: block;
     height: 2.75em;
@@ -1353,7 +1353,7 @@ input[type="radio"] {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
-    color: #fff;
+    color: #fffff0;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -1385,7 +1385,7 @@ input[type="radio"] {
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
     background: #2e3842;
-    color: #fff;
+    color: #fffff0;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -1420,7 +1420,7 @@ input[type="radio"] + label:before {
 /* Box */
 .box {
   border-radius: 3px;
-  border: solid 2px #fff;
+  border: solid 2px #fffff0;
   margin-bottom: 2em;
   padding: 1.5em; }
   .box > :last-child,
@@ -1452,7 +1452,7 @@ input[type="radio"] + label:before {
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
     border-radius: 3px;
-    border: solid 2px #fff;
+    border: solid 2px #fffff0;
     display: inline-block;
     font-size: 1.35em;
     height: calc(3em + 2px);
@@ -1470,7 +1470,7 @@ input[type="radio"] + label:before {
       .icon.major {
         font-size: 1em; } }
   .icon.style1 {
-    color: #ffffff; }
+    color: #fffff0; }
   .icon.style2 {
     color: #00f0ff; }
   .icon.style3 {
@@ -1480,7 +1480,7 @@ input[type="radio"] + label:before {
   .icon.style6 {
     color: #ed4933; }
   .icon.style7 {
-    color: #ffffff; }
+    color: #fffff0; }
 
 /* Image */
 .image {
@@ -1528,7 +1528,7 @@ ul {
     list-style: none;
     padding-left: 0; }
     ul.alt li {
-      border-top: solid 1px #fff;
+      border-top: solid 1px #fffff0;
       padding: 0.5em 0; }
       ul.alt li:first-child {
         border-top: 0;
@@ -1619,7 +1619,7 @@ table {
   margin: 0 0 2em 0;
   width: 100%; }
   table tbody tr {
-    border: solid 1px #fff;
+    border: solid 1px #fffff0;
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
@@ -1627,19 +1627,19 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #fff;
+    color: #fffff0;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
-    border-bottom: solid 2px #fff; }
+    border-bottom: solid 2px #fffff0; }
   table tfoot {
-    border-top: solid 2px #fff; }
+    border-top: solid 2px #fffff0; }
   table.alt {
     border-collapse: separate; }
     table.alt tbody tr td {
-      border: solid 1px #fff;
+      border: solid 1px #fffff0;
       border-left-width: 0;
       border-top-width: 0; }
       table.alt tbody tr td:first-child {
@@ -1668,8 +1668,8 @@ button,
   background-color: transparent;
   border-radius: 3px;
   border: 0;
-  box-shadow: inset 0 0 0 2px #fff;
-  color: #fff;
+  box-shadow: inset 0 0 0 2px #fffff0;
+  color: #fffff0;
   cursor: pointer;
   display: inline-block;
   font-size: 0.8em;
@@ -1729,7 +1729,7 @@ button,
   .button.special {
     background-color: #ed4933;
     box-shadow: none !important;
-    color: #ffffff !important; }
+    color: #fffff0 !important; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
@@ -1810,7 +1810,7 @@ button,
       background-color: rgba(0, 0, 0, 0.35); }
     .features li:before {
       display: block;
-      color: #ffffff;
+      color: #fffff0;
       position: absolute;
       left: 1.75em;
       top: 2.75em;
@@ -1836,7 +1836,7 @@ button,
       .features li {
         padding: 3em 0 1em 0 ;
         background-color: transparent !important;
-        border-top: solid 2px #fff;
+        border-top: solid 2px #fffff0;
         width: 100%; }
         .features li:first-child {
           border-top: 0; } }
@@ -1931,11 +1931,11 @@ button,
     padding: 0; }
   .wrapper.style1 {
     background-color: #6393b7;
-    color: #d8e4ed; }
+    color: #d8e4e2; }
     .wrapper.style1 strong, .wrapper.style1 b {
-      color: #ffffff; }
+      color: #fffff0; }
     .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-      color: #ffffff; }
+      color: #fffff0; }
     .wrapper.style1 hr {
       border-color: rgba(0, 0, 0, 0.125); }
     .wrapper.style1 blockquote {
@@ -1943,13 +1943,13 @@ button,
     .wrapper.style1 code {
       background: rgba(255, 255, 255, 0.075); }
     .wrapper.style1 header p {
-      color: #c1d4e2; }
+      color: #c1d4d9; }
     .wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
       border-color: rgba(0, 0, 0, 0.125); }
     .wrapper.style1 header.major p {
-      color: #d8e4ed; }
+      color: #d8e4e2; }
     .wrapper.style1 label {
-      color: #ffffff; }
+      color: #fffff0; }
     .wrapper.style1 input[type="text"],
     .wrapper.style1 input[type="password"],
     .wrapper.style1 input[type="email"],
@@ -1960,24 +1960,24 @@ button,
       color: rgba(0, 0, 0, 0.125); }
     .wrapper.style1 input[type="checkbox"] + label,
     .wrapper.style1 input[type="radio"] + label {
-      color: #d8e4ed; }
+      color: #d8e4e2; }
       .wrapper.style1 input[type="checkbox"] + label:before,
       .wrapper.style1 input[type="radio"] + label:before {
         background: rgba(255, 255, 255, 0.075); }
     .wrapper.style1 input[type="checkbox"]:checked + label:before,
     .wrapper.style1 input[type="radio"]:checked + label:before {
-      background: #ffffff;
+      background: #fffff0;
       color: #6393b7; }
     .wrapper.style1 ::-webkit-input-placeholder {
-      color: #c1d4e2 !important; }
+      color: #c1d4d9 !important; }
     .wrapper.style1 :-moz-placeholder {
-      color: #c1d4e2 !important; }
+      color: #c1d4d9 !important; }
     .wrapper.style1 ::-moz-placeholder {
-      color: #c1d4e2 !important; }
+      color: #c1d4d9 !important; }
     .wrapper.style1 :-ms-input-placeholder {
-      color: #c1d4e2 !important; }
+      color: #c1d4d9 !important; }
     .wrapper.style1 .formerize-placeholder {
-      color: #c1d4e2 !important; }
+      color: #c1d4d9 !important; }
     .wrapper.style1 .icon.major {
       border-color: rgba(0, 0, 0, 0.125); }
     .wrapper.style1 ul.alt li {
@@ -1987,7 +1987,7 @@ button,
       .wrapper.style1 table tbody tr:nth-child(2n + 1) {
         background-color: rgba(255, 255, 255, 0.075); }
     .wrapper.style1 table th {
-      color: #ffffff; }
+      color: #fffff0; }
     .wrapper.style1 table thead {
       border-color: rgba(0, 0, 0, 0.125); }
     .wrapper.style1 table tfoot {
@@ -2000,7 +2000,7 @@ button,
     .wrapper.style1 button,
     .wrapper.style1 .button {
       box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-      color: #ffffff; }
+      color: #fffff0; }
       .wrapper.style1 input[type="submit"]:hover,
       .wrapper.style1 input[type="reset"]:hover,
       .wrapper.style1 input[type="button"]:hover,
@@ -2108,7 +2108,7 @@ button,
   .wrapper.style4 {
     background-color: transparent; }
   .wrapper.style5 {
-    background-color: #ffffff;
+    background-color: #fffff0;
     color: #4E4852; }
     .wrapper.style5 strong, .wrapper.style5 b {
       color: #2E3842; }
@@ -2145,7 +2145,7 @@ button,
     .wrapper.style5 input[type="checkbox"]:checked + label:before,
     .wrapper.style5 input[type="radio"]:checked + label:before {
       background: #2E3842;
-      color: #ffffff; }
+      color: #fffff0; }
     .wrapper.style5 ::-webkit-input-placeholder {
       color: #8E8892 !important; }
     .wrapper.style5 :-moz-placeholder {
@@ -2232,7 +2232,7 @@ button,
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
   background: #6393b7;
-  color: #ffffff;
+  color: #fffff0;
   height: 100%;
   max-width: 80%;
   overflow-y: auto;
@@ -2340,7 +2340,7 @@ body.is-menu-visible #menu {
         padding: 0; }
         #header nav > ul > li > a {
           border: 0;
-          color: #fff;
+          color: #fffff0;
           display: block;
           font-size: 0.8em;
           letter-spacing: 0.225em;
@@ -2421,7 +2421,7 @@ body.is-menu-visible #menu {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
-      background: #fff;
+      background: #fffff0;
       content: '';
       display: block;
       height: 2px;
@@ -2620,7 +2620,7 @@ body.is-mobile #main > header {
     #footer .icons a {
       color: rgba(255, 255, 255, 0.5); }
       #footer .icons a:hover {
-        color: #fff; }
+        color: #fffff0; }
   #footer .copyright {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8em;
@@ -2641,7 +2641,7 @@ body.is-mobile #main > header {
       #footer .copyright li a {
         color: inherit; }
         #footer .copyright li a:hover {
-          color: #fff; }
+          color: #fffff0; }
       @media screen and (max-width: 480px) {
         #footer .copyright li {
           border: 0;
